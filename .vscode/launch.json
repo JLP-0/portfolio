@@ -7,7 +7,7 @@
       "type": "pwa-chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
-      "url": "https://qsjp0q-4200.preview.csb.app/"
+      "url": "http://localhost:4200/"
     },
     {
       "name": "ng test",

@@ -56,10 +56,11 @@
           },
           "defaultConfiguration": "production"
         },
-        "serve": {
+        "serve": {          
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+              "disableHostCheck": true,
               "browserTarget": "portfolio:build:production"
             },
             "development": {
